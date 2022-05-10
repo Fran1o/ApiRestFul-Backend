@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express ()
-const routesProducts = require('./routes/productos')
+const routesProducts = require('./routess/productos')
 app.use(express.json())
 
 //empezando servidor
