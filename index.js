@@ -9,6 +9,7 @@ const server = app.listen(PORT, () =>{
     console.log(`Servidor escuchando en el puerto ${PORT}`)
 })
 
+
 //routes
 app.use(express.static(__dirname + "/public"))
 app.use('/api', routesProducts)
